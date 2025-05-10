@@ -10,7 +10,8 @@ CREATE TABLE books (
     author VARCHAR(255),
     stock INT
 );
-GO
+
+
 INSERT INTO books (title, price, category, publisher, author, stock) VALUES
 ('A Game of Thrones', 46.00, 'Novel', 'Bantam Spectra', 'George R. R. Martin', 174),
 ('The Hobbit or There and Back Again', 22.00, 'Fantasy', 'Allen & Unwin', 'J. R. R. Tolkien', 200),

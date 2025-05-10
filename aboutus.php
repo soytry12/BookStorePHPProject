@@ -101,6 +101,7 @@ require_once 'db_connect.php';
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
+                        <a class="btn btn-outline-light" href="index.php">Home</a>
                         <a class="btn btn-outline-light" href="about_us.php">About Us</a>
                     </li>
                 </ul>

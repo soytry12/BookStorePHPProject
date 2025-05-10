@@ -76,6 +76,7 @@ $result = $conn->query($sql);
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
+                        <a class="btn btn-outline-light" href="#">Home</a>
                         <a class="btn btn-outline-light" href="aboutus.php">About us</a>
                     </li>
                 </ul>
