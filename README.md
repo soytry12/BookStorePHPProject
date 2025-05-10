@@ -1,1 +1,2 @@
 # BookStorePHPProject
+Welcome to our Bookstore System! This project is designed to help manage books easily and efficiently. Whether you're adding new titles, updating stock, or browsing by category, our system provides a simple and user-friendly interface. Built with PHP and MySQL, it’s perfect for libraries, small bookshops, or anyone who wants to organize their book collection. Thank you for using our system!
