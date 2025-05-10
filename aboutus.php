@@ -21,6 +21,7 @@ require_once 'db_connect.php';
         }
         .navbar {
             background-color: #2c3e50;
+            /* background: -webkit-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(9, 87, 133) 100%); */
         }
         .main-content {
             flex: 1;
@@ -93,7 +94,7 @@ require_once 'db_connect.php';
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.php">Bookstore System</a>
+            <a class="navbar-brand" href="index.php"><h3>Bookstore System</h3></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -112,13 +113,14 @@ require_once 'db_connect.php';
                 <div class="about-section">
                     <div class="about-text-content">
                         <h1 class="about-heading">About Us</h1>
-                        <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                        <p class="about-text"><p>Welcome to our Bookstore System! This project is designed to help manage books easily and efficiently. Whether you're adding new titles, updating stock, or browsing by category, our system provides a simple and user-friendly interface. Built with PHP and MySQL, it’s perfect for libraries, small bookshops, or anyone who wants to organize their book collection. Thank you for using our system!</p>
+                        </p>
                         <button class="contact-btn">Contact Now</button>
                         <div class="social-icons">
-                            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/phonsoytry12" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://github.com/soytry12/BookStorePHPProject" target="_blank"><i class="fab fa-github"></i></a>
                             <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.youtube.com/@phonsoytry" target="_blank"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                     <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgeWX8Gl3zxhgid1d5H_0ZvME_odASanaXoo6Ja6FrxKtVvYvGVeUCq8kbKeH3O0ekmBxbWvvqPVyUKaunuSyA-r-ycELp9iDlrdZkYZRgb70CjQxsh0-2F0I0r_tweUiriu3g_Kea2KEPvPD9_UUfrygiiJ5UKKwGWFl5CXZHLcKePb3tRRolCByCQ=s1600" alt="Team Illustration" class="about-image">
