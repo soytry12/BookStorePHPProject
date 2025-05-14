@@ -38,30 +38,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Book</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: #f8f9fa;
-        }
-        .card {
-            border: none;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .btn-custom {
-            background-color: #3498db;
-            border-color: #3498db;
-        }
-        .btn-custom:hover {
-            background-color: #2980b9;
-            border-color: #2980b9;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Bookstore System</a>
-            <a href="index.php" class="btn btn-outline-light">Back</a>
+            <a class="navbar-brand" href="#"><h3>Bookstore System</h3></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light me-2" href="#">Home</a>
+                        <a class="btn btn-outline-light" href="aboutus.php">About Us</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <div class="container mt-5">
@@ -90,7 +83,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                             <div class="mb-3">
                                 <input type="number" name="stock" class="form-control" placeholder="Stock" value="<?php echo $book['stock']; ?>">
                             </div>
-                            <button type="submit" class="btn btn-custom w-100">Update Book</button>
+                            <div class="d-flex gap-2">
+                                <button type="submit" class="btn btn-custom w-100">Update Book</button>
+                                <a href="index.php" class="btn btn-secondary w-100">Cancel</a>
+                            </div>
                         </form>
                     </div>
                 </div>

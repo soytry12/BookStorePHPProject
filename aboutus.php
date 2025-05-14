@@ -11,85 +11,7 @@ require_once 'db_connect.php';
     <title>About Us - Bookstore System</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <style>
-        body {
-            background-color: #f8f9fa;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        .navbar {
-            background-color: #2c3e50;
-            /* background: -webkit-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(9, 87, 133) 100%); */
-        }
-        .main-content {
-            flex: 1;
-            padding: 40px 20px;
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.1);
-            margin: 20px auto;
-            max-width: 1200px;
-            width: 100%;
-        }
-        .about-section {
-            margin-top: 40px;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 30px;
-        }
-        .about-text-content {
-            flex: 1;
-            min-width: 300px;
-        }
-        .about-heading {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: #2c3e50;
-            margin-bottom: 20px;
-        }
-        .about-text {
-            font-size: 1rem;
-            color: #555;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-        .contact-btn {
-            background-color: #f39c12;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 25px;
-            font-size: 1rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-        .contact-btn:hover {
-            background-color: #e67e22;
-        }
-        .about-image {
-            flex: 1;
-            min-width: 300px;
-            max-width: 500px;
-            height: auto;
-            border-radius: 10px;
-        }
-        .social-icons {
-            margin-top: 20px;
-        }
-        .social-icons a {
-            color: #2c3e50;
-            margin-right: 15px;
-            font-size: 1.5rem;
-            transition: color 0.3s ease;
-        }
-        .social-icons a:hover {
-            color: #f39c12;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -101,7 +23,7 @@ require_once 'db_connect.php';
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="btn btn-outline-light" href="index.php">Home</a>
+                        <a class="btn btn-outline-light me-2" href="index.php">Home</a>
                         <a class="btn btn-outline-light" href="about_us.php">About Us</a>
                     </li>
                 </ul>
@@ -114,8 +36,7 @@ require_once 'db_connect.php';
                 <div class="about-section">
                     <div class="about-text-content">
                         <h1 class="about-heading">About Us</h1>
-                        <p class="about-text"><p>Welcome to our Bookstore System! This project is designed to help manage books easily and efficiently. Whether you're adding new titles, updating stock, or browsing by category, our system provides a simple and user-friendly interface. Built with PHP and MySQL, it’s perfect for libraries, small bookshops, or anyone who wants to organize their book collection. Thank you for using our system!</p>
-                        </p>
+                        <p class="about-text">Welcome to our Bookstore System! This project is designed to help manage books easily and efficiently. Whether you're adding new titles, updating stock, or browsing by category, our system provides a simple and user-friendly interface. Built with PHP and MySQL, it’s perfect for libraries, small bookshops, or anyone who wants to organize their book collection. Thank you for using our system!</p>
                         <button class="contact-btn">Contact Now</button>
                         <div class="social-icons">
                             <a href="https://www.facebook.com/phonsoytry12" target="_blank"><i class="fab fa-facebook-f"></i></a>

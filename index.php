@@ -12,59 +12,7 @@ $result = $conn->query($sql);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookstore System</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: #f8f9fa;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        .navbar {
-            background-color: #2c3e50;
-        }
-        .main-content {
-            flex: 1;
-            padding: 40px 20px;
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.1);
-            margin: 20px auto;
-            max-width: 1200px;
-            width: 100%;
-        }
-        .table-responsive {
-            margin-top: 20px;
-        }
-        .table thead th {
-            background-color: #2c3e50;
-            color: #ffffff;
-        }
-        .btn-custom {
-            background-color: #3498db;
-            border-color: #3498db;
-        }
-        .btn-custom:hover {
-            background-color: #2980b9;
-            border-color: #2980b9;
-        }
-        .btn-success {
-            background-color: #27ae60;
-            border-color: #27ae60;
-        }
-        .btn-success:hover {
-            background-color: #219653;
-            border-color: #219653;
-        }
-        .btn-danger {
-            background-color: #e74c3c;
-            border-color: #e74c3c;
-        }
-        .btn-danger:hover {
-            background-color: #c0392b;
-            border-color: #c0392b;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -76,8 +24,8 @@ $result = $conn->query($sql);
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="btn btn-outline-light" href="#">Home</a>
-                        <a class="btn btn-outline-light" href="aboutus.php">About us</a>
+                        <a class="btn btn-outline-light me-2" href="#">Home</a>
+                        <a class="btn btn-outline-light" href="aboutus.php">About Us</a>
                     </li>
                 </ul>
             </div>
