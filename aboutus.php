@@ -8,7 +8,7 @@ require_once 'db_connect.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Bookstore System</title>
+    <title>About Us</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
@@ -36,7 +36,7 @@ require_once 'db_connect.php';
                 <div class="about-section">
                     <div class="about-text-content">
                         <h1 class="about-heading">About Us</h1>
-                        <p class="about-text">Welcome to our Bookstore System! This project is designed to help manage books easily and efficiently. Whether you're adding new titles, updating stock, or browsing by category, our system provides a simple and user-friendly interface. Built with PHP and MySQL, it’s perfect for libraries, small bookshops, or anyone who wants to organize their book collection. Thank you for using our system!</p>
+                        <p class="about-text">Hello, my name is <b>PHON SOYTRY</b>. This project is designed to help manage books. Built with <b>PHP, Bootstrap and MySQL</b>. Thank you for using our system!</p>
                         <button class="contact-btn">Contact Now</button>
                         <div class="social-icons">
                             <a href="https://www.facebook.com/phonsoytry12" target="_blank"><i class="fab fa-facebook-f"></i></a>
